@@ -1,6 +1,6 @@
 import calculator from "../Assets/Calculator.png";
-import list from "../Assets/list.png";
-import show from "../Assets/show.png";
+import list from "../Assets/List.png";
+import show from "../Assets/Show.png";
 import { Link } from "react-router-dom";
 
 const Content = () => {
