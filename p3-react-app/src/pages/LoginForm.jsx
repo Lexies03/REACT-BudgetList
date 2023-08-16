@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Logo from "../Assets/bg-logo.png";
+import Logo from "../Assets/bg-Logo.png";
 import { Link, useNavigate } from "react-router-dom";
 
 const LoginForm = () => {
