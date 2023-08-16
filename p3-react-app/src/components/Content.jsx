@@ -1,4 +1,4 @@
-import calculator from "../Assets/calculator.png";
+import calculator from "../Assets/Calculator.png";
 import list from "../Assets/list.png";
 import show from "../Assets/show.png";
 import { Link } from "react-router-dom";
