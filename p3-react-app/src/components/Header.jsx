@@ -44,9 +44,6 @@ const Header = () => {
             </Link>
           </li>
           <li>
-            {/* <Link className="link" to="login">
-              {loginText}
-            </Link> */}
             {user ? (
               <select
                 onChange={handleSelectionChange}

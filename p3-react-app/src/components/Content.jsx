@@ -8,7 +8,7 @@ const Content = () => {
 
   return (
     <div className="content-main-container">
-      <h1> Welcome {user}!</h1>
+      <h1 style={{ color: "#e74c3c" }}> Welcome {user}!</h1>
       <br />
       <h2>Category</h2>
 

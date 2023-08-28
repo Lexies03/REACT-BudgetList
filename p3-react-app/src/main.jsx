@@ -37,33 +37,33 @@ const router = createBrowserRouter([
           </PrivateRouter>
         ),
       },
+      {
+        path: "budget",
+        element: (
+          <PrivateRouter>
+            <BudgetGroceryPage />
+          </PrivateRouter>
+        ),
+      },
+      {
+        path: "instruction",
+        element: (
+          <PrivateRouter>
+            <Instruction />
+          </PrivateRouter>
+        ),
+      },
+      {
+        path: "list",
+        element: (
+          <PrivateRouter>
+            <ListGroceryPage />
+          </PrivateRouter>
+        ),
+      },
     ],
   },
 
-  {
-    path: "budget",
-    element: (
-      <PrivateRouter>
-        <BudgetGroceryPage />
-      </PrivateRouter>
-    ),
-  },
-  {
-    path: "instruction",
-    element: (
-      <PrivateRouter>
-        <Instruction />
-      </PrivateRouter>
-    ),
-  },
-  {
-    path: "list",
-    element: (
-      <PrivateRouter>
-        <ListGroceryPage />
-      </PrivateRouter>
-    ),
-  },
   {
     path: "register",
     element: <RegistrationForm />,
@@ -72,66 +72,6 @@ const router = createBrowserRouter([
     path: "login",
     element: <LoginForm />,
   },
-
-  // {
-  //   path: "/login",
-  //   element: <LoginForm />,
-  // },
-  // {
-  //   path: "/",
-  //   element: <App />,
-  //   children: [
-  //     {
-  //       path: "home",
-  //       element: (
-  //         <PrivateRouter>
-  //           <Content />
-  //         </PrivateRouter>
-  //       ),
-  //     },
-  //     {
-  //       path: "blog",
-  //       element: (
-  //         <PrivateRouter>
-  //           <Blog />
-  //         </PrivateRouter>
-  //       ),
-  //     },
-  //   ],
-  // },
-
-  // {
-  //   path: "budget",
-  //   element: (
-  //     <PrivateRouter>
-  //       <BudgetGroceryPage />
-  //     </PrivateRouter>
-  //   ),
-  // },
-  // {
-  //   path: "instruction",
-  //   element: (
-  //     <PrivateRouter>
-  //       <Instruction />
-  //     </PrivateRouter>
-  //   ),
-  // },
-  // {
-  //   path: "list",
-  //   element: (
-  //     <PrivateRouter>
-  //       <ListGroceryPage />
-  //     </PrivateRouter>
-  //   ),
-  // },
-  // {
-  //   path: "register",
-  //   element: <RegistrationForm />,
-  // },
-  // {
-  //   path: "login",
-  //   element: <LoginForm />,
-  // },
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
